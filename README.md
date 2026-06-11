@@ -61,11 +61,11 @@ Preduvjeti za lokalno pokretanje:
 4. Otvoriti datoteku:
     Test_Glazbeni_zanr.ipynb
 5. Pokrenuti sve ćelije redom
-6. Umjesto X u ćeliji slijedećeg sadržaja zamijeniti imenom zvuka koji želimo testirati
-    from IPython.display import Audio
+6. Umjesto X u ćeliji slijedećeg sadržaja zamijeniti imenom zvuka koji želimo testirati (npr. classical001.mp3)
+    'from IPython.display import Audio
     file_path = "./Test_Music/X.mp3"
     y, sr = librosa.load(file_path, sr=44100)
-    Audio(data=y, rate=sr)
+    Audio(data=y, rate=sr)'
 7. Pokrenuti sve ćelije još jednom
 
 ### Rezultati
